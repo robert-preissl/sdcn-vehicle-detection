@@ -1,7 +1,7 @@
 ## Vehicle Detection Pipeline
 
-This is a discussion for the Udacity Self Driving Car Program. Images to train a classifier
-were provided by the instructors as well test videos, etc.
+This is a discussion for the "vehicle detection" exercise in Udacity's Self Driving Car Program.
+Images to train the later introduced classifier were provided by the instructors as well as test videos, etc.
 
 [//]: # (Image References)
 [hog_car]: ./hog_car_yuv_allChannels.png
@@ -11,11 +11,11 @@ were provided by the instructors as well test videos, etc.
 [heat2]: ./heat_test_after.png
 [video1]: ./result_video.mp4
 
-code:
+*code*:
   * vd.py
   * image_functions.py
 
-run:
+*run*:
   * **python vd.py --use_test_images 1 --do_train 1 --color_space YUV**
 
    .. to train a linear classifier on a given set of test images and to run the pipeline on a set of images. all within the YUV colorspace. (the trained classifier is stored in a pickle file)
